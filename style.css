@@ -1,0 +1,68 @@
+/* Color Variables */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a80;     /* Deep Navy Blue */
+    --accent-red: #c8102e;     /* USA Red */
+    --accent-blue: #002868;    /* USA Blue */
+    --light-gray: #f4f4f4;
+    --border-color: #ddd;
+  }
+  
+  /* General Body Styling */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Article Styling */
+  article {
+    background-color: var(--light-gray);
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid var(--accent-blue);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Headings */
+  h1 {
+    color: var(--accent-red);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Lists */
+  ul, ol {
+    margin: 15px 0;
+    padding-left: 40px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    color: var(--text-color);
+  }
+  
+  /* Aside Styling */
+  aside {
+    background-color: var(--accent-blue);
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  aside h2 {
+    color: #fff;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  
